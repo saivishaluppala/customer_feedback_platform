@@ -1,0 +1,56 @@
+/* General form styling */
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  /* Category selection */
+  .category-select {
+    margin-bottom: 10px;
+  }
+  
+  /* Rating input */
+  .rating-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .rating-star {
+    color: #f5f5f5;
+    cursor: pointer;
+  }
+  
+  .rating-star.selected {
+    color: gold;
+  }
+  
+  /* Comments textarea */
+  .comments-textarea {
+    width: 100%;
+    resize: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Submit button */
+  .submit-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  

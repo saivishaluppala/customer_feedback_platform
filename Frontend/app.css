@@ -1,0 +1,55 @@
+/* Global styles */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light gray background */
+  }
+  
+  /* General typography */
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+  }
+  
+  /* Layout */
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  /* Spacing */
+  
+  .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .mt-4 {
+    margin-top: 1.5rem;
+  }
+  
+  /* Colors */
+  
+  .primary-color {
+    color: #007bff; /* Blue primary color */
+  }
+  
+  .secondary-color {
+    color: #6c757d; /* Gray secondary color */
+  }
+  
